@@ -1,1 +1,1 @@
-web: gunicorn ydzen.wsgi --log-file
+web: gunicorn ydzen.wsgi --log-file /tmp/gunicorn.log
